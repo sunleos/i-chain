@@ -41,6 +41,10 @@ class TransactionPool {
     })
   }
 
+  clear () {
+    this.transactions = [];
+  }
+
 }
 
 
